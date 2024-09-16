@@ -11,7 +11,7 @@ with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
 
 setup(
-    name="AFAS-pydantic-orm",
+    name="AFAS_pydantic_orm",
     version=VERSION,
     url=SOURCE_URL,
     project_urls={
