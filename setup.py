@@ -3,9 +3,9 @@ from setuptools import find_packages, setup
 VERSION = "0.1.0"
 DESCRIPTION = "CRUD operations on nested SQLAlchemy ORM-models using Pydantic"
 
-SOURCE_URL = "https://github.com/Wouterkoorn/sqlalchemy-pydantic-orm"
-DOCS_URL = "https://wouterkoorn.github.io/sqlalchemy-pydantic-orm/index.html"
-TRACKER_URL = "https://github.com/Wouterkoorn/sqlalchemy-pydantic-orm/issues"
+SOURCE_URL = "https://github.com/Alexanderkievit/AFAS_Pydantic_ORM"
+DOCS_URL = "https://github.com/Alexanderkievit/AFAS_Pydantic_ORM"
+TRACKER_URL = "https://github.com/Alexanderkievit/AFAS_Pydantic_ORM/issues"
 
 with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
@@ -19,14 +19,14 @@ setup(
         "Documentation": DOCS_URL,
         "Tracker": TRACKER_URL,
     },
-    author="Alexander Kievit",
+    author="AKievit",
     author_email="<alexander.kievit@afas.nl>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     python_requires=">=3.8",
-    install_requires=["pydantic ~= 1.8.1", "sqlalchemy ~= 1.4.11"],
+    install_requires=["pydantic >= 2.8.0", "sqlalchemy >= 2.0.00"],
     extras_require={
         "dev": [
             "pytest >= 6.2.3",

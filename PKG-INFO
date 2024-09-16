@@ -1,14 +1,14 @@
 Metadata-Version: 2.1
-Name: AFAS-pydantic-orm
+Name: AFAS_pydantic_orm
 Version: 0.1.0
 Summary: CRUD operations on nested SQLAlchemy ORM-models using Pydantic
-Home-page: https://github.com/Wouterkoorn/sqlalchemy-pydantic-orm
-Author: wkoorn (Wouter Koorn)
-Author-email: <wouter.koorn@student.hu.nl>
+Home-page: https://github.com/Alexanderkievit/AFAS_Pydantic_ORM
+Author: AKievit (Alexander Kievit)
+Author-email: <alexander.kievit@afas.nl>
 License: UNKNOWN
-Project-URL: Source, https://github.com/Wouterkoorn/sqlalchemy-pydantic-orm
-Project-URL: Documentation, https://wouterkoorn.github.io/sqlalchemy-pydantic-orm/index.html
-Project-URL: Tracker, https://github.com/Wouterkoorn/sqlalchemy-pydantic-orm/issues
+Project-URL: Source, https://github.com/Alexanderkievit/AFAS_Pydantic_ORM
+Project-URL: Documentation, https://github.com/Alexanderkievit/AFAS_Pydantic_ORM/issues
+Project-URL: Tracker, https://github.com/Alexanderkievit/AFAS_Pydantic_ORM/issues
 Description: # sqlalchemy-pydantic-orm
         This library makes it a lot easier to do nested database operation with
         SQLAlchemy. With this library it is for example possible to validate, convert,
